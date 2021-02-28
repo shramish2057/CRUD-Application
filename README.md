@@ -1,5 +1,3 @@
-# Getting Started with Create React App
-
 # CRUD Application
 
 A simple crud application that allows user to store the job information, add new job, edit the existing job and delete the exiting job using React JS.
