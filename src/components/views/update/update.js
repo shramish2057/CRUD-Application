@@ -41,8 +41,8 @@ const EditUser = () => {
     history.push("/");
   };
 
-  const loadUser = async () => {
-    const result = await axios.get(`http://localhost:3003/users/?id=${id}`);
+   const loadUser = async () => {
+    const result = await axios.get(`http://localhost:3003/users/${id}`);
     setUser(result.data);
   };
   return (
